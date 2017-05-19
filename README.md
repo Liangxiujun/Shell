@@ -2,8 +2,8 @@
 #运维脚本
 
 vpn_centos6.sh
-运行一键安装包
 
+运行一键安装包
 #bash vpn_centos6.sh
 
 会有三个选择:
