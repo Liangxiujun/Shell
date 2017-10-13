@@ -1,6 +1,6 @@
 #!/bin/bash
 # Date: 2016-01-04
-# Author: Liudian
+# Author: Liangxiujun
 # 更新om代码,从测试环境scp代码到生产环境，使用git之后不再需要此脚本
 code_dir=/data/www/oumoo
 bk_dir=/codebackup/$(date "+%F")
