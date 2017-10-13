@@ -17,7 +17,7 @@ else
     service syslog restart
 fi
 
-echo '111.13.137.185 logserver' >>/etc/hosts
+echo 'x.x.x.x logserver' >>/etc/hosts
 echo "> ~/.bash_history" >> /etc/bashrc
 echo "export HISTTIMEFORMAT=''" >> /etc/bashrc
 echo "export HISTORY_FILE=/var/log/.usermonitor/usermonitor.log" >> /etc/bashrc
@@ -29,6 +29,6 @@ for user in `cat user_list`
 do
     useradd -g wheel monitor
     useradd -g wheel $user
-    echo 'clickwise123456' | passwd --stdin $user
+    echo 'xxx123456' | passwd --stdin $user
     chage -d0 $user
 done
