@@ -1,6 +1,6 @@
 #!/bin/bash
 # Date: 2016-01-08
-# Author: Liudian
+# Author: Liangxiujun
 #定期清理数据库中的user_model表中的过期数据
 current_time=$(date +%s)
 limit_time=$[90*24*60*60]
