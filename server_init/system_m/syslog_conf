@@ -1,0 +1,2 @@
+local1.*					@logserver
+local1.*					/var/log/.usermonitor/usermonitor.log
