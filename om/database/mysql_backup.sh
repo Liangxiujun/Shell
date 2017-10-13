@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Author: Liudian
+# Author: Liangxiujun
 # Date: 2015-12-31
 # 备份oumoo和forum数据库
 db_user=serveradmin
